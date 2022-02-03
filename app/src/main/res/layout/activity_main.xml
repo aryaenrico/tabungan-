@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#C9CCD5"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Tabungan"
+        android:textSize="25sp"
+        android:fontFamily="@font/header"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:id="@+id/btn_Setor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SETOR"
+            android:background="#0F52BA"
+            android:textColor="@color/white"
+            android:fontFamily="@font/header"
+            android:onClick="setor"
+            android:clickable="true"/>
+        <Button
+            android:id="@+id/btn_Tarik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarik"
+            android:textColor="@color/white"
+            android:fontFamily="@font/header"
+            android:background="#BD1616"
+            android:onClick="tarik"
+            android:clickable="true"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="SEMUA MEMBER"
+        android:background="#0F52BA"
+        android:fontFamily="@font/header"
+        android:textColor="@color/white"
+        android:onClick="allmember"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Detil Transaksi"
+        android:background="#0F52BA"
+        android:fontFamily="@font/header"
+        android:textColor="@color/white"
+        android:onClick="detil"/>
+
+</LinearLayout>

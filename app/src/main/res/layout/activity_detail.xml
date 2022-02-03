@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID warga"
+        android:textSize="12sp"
+        android:fontFamily="@font/header"/>
+
+    <EditText
+        android:id="@+id/detail_id_warga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan ID"
+        android:fontFamily="@font/header"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="12sp"
+        android:fontFamily="@font/header"/>
+
+    <EditText
+        android:id="@+id/detail_nama_warga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama anda "
+        android:fontFamily="@font/header"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saldo"
+        android:textSize="12sp"
+        android:fontFamily="@font/header"/>
+
+    <EditText
+        android:id="@+id/detail_saldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Jumlah "
+        android:fontFamily="@font/header"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnEditdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:fontFamily="@font/header"
+        android:background="#0F52BA"
+        android:textColor="@color/white"
+
+        />
+
+</LinearLayout>

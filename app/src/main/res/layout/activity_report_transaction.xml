@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportTransaction"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:text="Masukan ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/header"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/search_id_transaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/header"/>
+
+    <Button
+        android:id="@+id/btn_result_transaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CEK"
+        android:onClick="result_transaction"
+        android:background="#0F52BA"
+        android:fontFamily="@font/header"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <ListView
+        android:layout_weight="1"
+        android:id="@+id/result_transaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:textColor="@color/white"
+        android:background="#0F52BA"
+        android:fontFamily="@font/header"/>
+
+</LinearLayout>

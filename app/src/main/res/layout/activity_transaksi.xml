@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transaksi"
+    android:orientation="vertical"
+    android:background="#C9CCD5"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID warga"
+        android:textSize="12sp"
+        android:fontFamily="@font/header"/>
+
+    <EditText
+        android:id="@+id/id_warga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan ID"
+        android:fontFamily="@font/header"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="12sp"
+        android:fontFamily="@font/header"/>
+
+    <EditText
+        android:id="@+id/id_nama_warga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama anda "
+        android:fontFamily="@font/header"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah"
+        android:textSize="12sp"
+        android:fontFamily="@font/header"/>
+
+    <EditText
+        android:id="@+id/id_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Jumlah "
+        android:fontFamily="@font/header"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnProses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROSES"
+        android:fontFamily="@font/header"
+        android:background="#0F52BA"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnCek_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Id"
+        android:fontFamily="@font/header"
+        android:background="#0F52BA"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnCek_dummy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Tabel "
+        android:fontFamily="@font/header"
+        android:background="#0F52BA"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>
