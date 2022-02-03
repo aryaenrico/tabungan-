@@ -15,6 +15,7 @@ import java.util.List;
 
 public class Koneksi extends SQLiteOpenHelper {
 
+    // perubahan yang ada
     Context context;
     SQLiteDatabase db;
 
